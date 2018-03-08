@@ -2,24 +2,27 @@ body{
     background-image: url(image/space.jpg);
     background-size: cover;
 }
-h1{
+h1, h2{
     color: white;
-}
-h2{
-    color:white;
+    text-align: center;
+    font-family:monospace;
+    font-size: 40px;
 }
 table{
     color: white;
     align-content: center;
+    font-family: cursive;
+    padding: 10px;
+    margin: auto;
 }
-div{
+table.first{
     text-align: center;
     background: black;
     opacity: .8;
-    width: 70%;
     margin: auto;
     border-style: solid;
     border-color: aqua;
+
 }
 td.left{
     text-align: right;
