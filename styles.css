@@ -12,18 +12,18 @@ table{
     color: white;
     align-content: center;
     font-family: cursive;
-    padding: 10px;
     margin: auto;
-}
-table.first{
     text-align: center;
     background: black;
     opacity: .8;
     margin: auto;
     border-style: solid;
-    border-color: aqua;
-
+    border-color: #00FFF0;
 }
-td.left{
-    text-align: right;
+
+td{
+    border: 1px white solid;
+}
+td.none{
+    border: none;
 }
